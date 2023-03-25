@@ -33,4 +33,8 @@ public class AlbumRequest extends UserDateAuditPayload {
 			this.photo = Collections.unmodifiableList(photo);
 		}
 	}
+
+	public String getTitle() {
+		return this.title;
+	}
 }

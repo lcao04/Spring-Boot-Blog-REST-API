@@ -189,4 +189,122 @@ public class User extends DateAudit {
 			this.comments = Collections.unmodifiableList(comments);
 		}
 	}
+
+
+
+	public Long getId() {
+		return this.id;
+	}
+
+
+
+	public String getFirstName() {
+		// TODO Auto-generated method stub
+		return this.firstName;
+	}
+
+
+
+	public String getLastName() {
+		// TODO Auto-generated method stub
+		return this.lastName;
+	}
+
+
+
+	public String getUsername() {
+		// TODO Auto-generated method stub
+		return this.username;
+	}
+
+
+
+	public String getEmail() {
+		// TODO Auto-generated method stub
+		return this.email;
+	}
+
+
+
+	public String getPassword() {
+		// TODO Auto-generated method stub
+		return this.password;
+	}
+
+
+
+	public Company getCompany() {
+		// TODO Auto-generated method stub
+		return this.company;
+	}
+
+
+
+	public Address getAddress() {
+		// TODO Auto-generated method stub
+		return this.address;
+	}
+
+
+
+	public String getPhone() {
+		// TODO Auto-generated method stub
+		return this.phone;
+	}
+
+
+
+	public String getWebsite() {
+		// TODO Auto-generated method stub
+		return this.website;
+	}
+
+
+
+	public void setPassword(String encode) {
+		// TODO Auto-generated method stub
+		this.password = encode;
+	}
+
+
+
+	public void setFirstName(String firstName2) {
+		// TODO Auto-generated method stub
+		this.firstName = firstName2;
+	}
+
+
+
+	public void setLastName(String lastName2) {
+		// TODO Auto-generated method stub
+		this.lastName = lastName2;
+	}
+
+
+
+	public void setAddress(Address address2) {
+		// TODO Auto-generated method stub
+		this.address = address2;
+	}
+
+
+
+	public void setPhone(String phone2) {
+		// TODO Auto-generated method stub
+		this.phone = phone2;
+	}
+
+
+
+	public void setWebsite(String website2) {
+		// TODO Auto-generated method stub
+		this.website = website2;
+	}
+
+
+
+	public void setCompany(Company company2) {
+		// TODO Auto-generated method stub
+		this.company = company2;
+	}
 }

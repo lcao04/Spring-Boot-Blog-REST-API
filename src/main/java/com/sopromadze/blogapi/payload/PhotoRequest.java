@@ -23,4 +23,24 @@ public class PhotoRequest {
 
 	@NotNull
 	private Long albumId;
+
+	public Long getAlbumId() {
+		// TODO Auto-generated method stub
+		return this.albumId;
+	}
+
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return this.title;
+	}
+
+	public String getThumbnailUrl() {
+		// TODO Auto-generated method stub
+		return this.thumbnailUrl;
+	}
+
+	public @NotBlank String getUrl() {
+		// TODO Auto-generated method stub
+		return this.url;
+	}
 }

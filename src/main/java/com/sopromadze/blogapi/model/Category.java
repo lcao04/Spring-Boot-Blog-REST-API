@@ -55,4 +55,20 @@ public class Category extends UserDateAudit {
 		}
 	}
 
+	public String getName() {
+		// TODO Auto-generated method stub
+		return this.name;
+	}
+
+	public void setName(String name2) {
+		// TODO Auto-generated method stub
+		this.name = name2;
+		
+	}
+
+	public Long getId() {
+		// TODO Auto-generated method stub
+		return this.id;
+	}
+
 }

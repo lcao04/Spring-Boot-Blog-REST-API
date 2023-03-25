@@ -41,4 +41,19 @@ public class ApiResponse implements Serializable {
 		this.message = message;
 		this.status = httpStatus;
 	}
+
+	public void setSuccess(Boolean false1) {
+		this.success = false1;
+		
+	}
+
+	public void setMessage(String message2) {
+		this.message = message2;
+		
+	}
+
+	public boolean getSuccess() {
+		// TODO Auto-generated method stub
+		return this.success;
+	}
 }

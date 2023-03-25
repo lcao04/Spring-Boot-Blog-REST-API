@@ -38,4 +38,19 @@ public class PostRequest {
 			this.tags = Collections.unmodifiableList(tags);
 		}
 	}
+
+	public Long getCategoryId() {
+		// TODO Auto-generated method stub
+		return this.categoryId;
+	}
+
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return this.title;
+	}
+
+	public String getBody() {
+		// TODO Auto-generated method stub
+		return this.body;
+	}
 }

@@ -10,4 +10,9 @@ public class CommentRequest {
 	@NotBlank
 	@Size(min = 10, message = "Comment body must be minimum 10 characters")
 	private String body;
+
+	public @NotBlank @Size(min = 10, message = "Comment body must be minimum 10 characters") String getBody() {
+		// TODO Auto-generated method stub
+		return this.body;
+	}
 }

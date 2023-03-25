@@ -12,6 +12,21 @@ import java.time.Instant;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserProfile {
+	public UserProfile(Long id2, String username2, String firstName2, String lastName2, Instant createdAt,
+			String email2, Address address2, String phone2, String website2, Company company2, Long postCount2) {
+		// TODO Auto-generated constructor stub
+		this.id = id2;
+		this.username = username2;
+		this.firstName = firstName2;
+		this.lastName = lastName2;
+		this.joinedAt = createdAt;
+		this.email = email2;
+		this.address = address2;
+		this.phone = phone2;
+		this.website = website2;
+		this.company = company2;
+		this.postCount = postCount2;
+	}
 	private Long id;
 	private String username;
 	private String firstName;

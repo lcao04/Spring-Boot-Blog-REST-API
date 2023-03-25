@@ -61,4 +61,17 @@ public class Album extends UserDateAudit {
 			this.photo = Collections.unmodifiableList(photo);
 		}
 	}
+
+	public void setUser(User user2) {
+		this.user = user2;
+	}
+
+	public void setTitle(String title2) {
+		this.title = title2;
+	}
+
+	public Long getId() {
+		// TODO Auto-generated method stub
+		return this.id;
+	}
 }

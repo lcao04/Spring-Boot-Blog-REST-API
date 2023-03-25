@@ -69,4 +69,35 @@ public class Comment extends UserDateAudit {
     public User getUser() {
         return user;
     }
+
+	public void setUser(User user2) {
+		// TODO Auto-generated method stub
+		this.user = user2;
+	}
+
+	public void setPost(Post post2) {
+		// TODO Auto-generated method stub
+		this.post = post2;
+	}
+
+	public void setName(String username) {
+		// TODO Auto-generated method stub
+		this.name = username;
+	}
+
+	public void setEmail(String email2) {
+		// TODO Auto-generated method stub
+		this.email = email2;
+	}
+
+	public void setBody(
+			@NotBlank @Size(min = 10, message = "Comment body must be minimum 10 characters") String body2) {
+		// TODO Auto-generated method stub
+		this.body = body2;
+	}
+
+	public Long getId() {
+		// TODO Auto-generated method stub
+		return this.id;
+	}
 }

@@ -30,4 +30,9 @@ public class Role {
 	public Role(RoleName name) {
 		this.name = name;
 	}
+
+	public RoleName getName() {
+		// TODO Auto-generated method stub
+		return this.name;
+	}
 }

@@ -57,4 +57,39 @@ public class Photo extends UserDateAudit {
 	public Album getAlbum() {
 		return album;
 	}
+
+	public Long getId() {
+		// TODO Auto-generated method stub
+		return this.id;
+	}
+
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return this.title;
+	}
+
+	public String getUrl() {
+		// TODO Auto-generated method stub
+		return this.url;
+	}
+
+	public String getThumbnailUrl() {
+		// TODO Auto-generated method stub
+		return this.thumbnailUrl;
+	}
+
+	public void setTitle(String title2) {
+		// TODO Auto-generated method stub
+		this.title = title2;
+	}
+
+	public void setThumbnailUrl(String thumbnailUrl2) {
+		// TODO Auto-generated method stub
+		this.thumbnailUrl = thumbnailUrl2;
+	}
+
+	public void setAlbum(Album album2) {
+		// TODO Auto-generated method stub
+		this.album = album2;
+	}
 }

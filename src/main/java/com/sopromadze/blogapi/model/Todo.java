@@ -45,4 +45,29 @@ public class Todo extends UserDateAudit {
 	public User getUser() {
 		return user;
 	}
+
+	public void setCompleted(Boolean true1) {
+		// TODO Auto-generated method stub
+		this.completed = true1;
+	}
+
+	public void setUser(User user2) {
+		// TODO Auto-generated method stub
+		this.user = user2;
+	}
+
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return this.title;
+	}
+
+	public void setTitle(String title2) {
+		// TODO Auto-generated method stub
+		this.title = title2;
+	}
+
+	public Boolean getCompleted() {
+		// TODO Auto-generated method stub
+		return this.completed;
+	}
 }

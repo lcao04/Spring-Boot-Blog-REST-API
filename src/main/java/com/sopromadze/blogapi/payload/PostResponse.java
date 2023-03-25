@@ -28,4 +28,19 @@ public class PostResponse {
 			this.tags = Collections.unmodifiableList(tags);
 		}
 	}
+
+	public void setTitle(String title2) {
+		// TODO Auto-generated method stub
+		this.title = title2;
+	}
+
+	public void setBody(String body2) {
+		// TODO Auto-generated method stub
+		this.body =body2;
+	}
+
+	public void setCategory(String name) {
+		// TODO Auto-generated method stub
+		this.category = name;
+	}
 }

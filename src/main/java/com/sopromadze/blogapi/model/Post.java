@@ -92,4 +92,39 @@ public class Post extends UserDateAudit {
 			this.tags = Collections.unmodifiableList(tags);
 		}
 	}
+
+	public Long getId() {
+		// TODO Auto-generated method stub
+		return this.id;
+	}
+
+	public void setTitle(String title2) {
+		// TODO Auto-generated method stub
+		this.title = title2;
+	}
+
+	public void setBody(String body2) {
+		// TODO Auto-generated method stub
+		this.body = body2;
+	}
+
+	public void setCategory(Category category2) {
+		// TODO Auto-generated method stub
+		this.category = category2;
+	}
+
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return this.title;
+	}
+
+	public String getBody() {
+		// TODO Auto-generated method stub
+		return this.body;
+	}
+
+	public Category getCategory() {
+		// TODO Auto-generated method stub
+		return this.category;
+	}
 }

@@ -31,4 +31,25 @@ public abstract class DateAudit implements Serializable {
 	@Column(nullable = false)
 	private Instant updatedAt;
 
+
+
+	public Instant getCreatedAt() {
+		// TODO Auto-generated method stub
+		return this.createdAt;
+	}
+
+	public void setCreatedAt(Instant createdAt) {
+		this.createdAt = createdAt;
+	}
+
+
+	public Instant getUpdatedAt() {
+		// TODO Auto-generated method stub
+		return this.updatedAt;
+	}
+
+
+	public void setUpdatedAt(Instant updatedAt) {
+		this.updatedAt = updatedAt;
+	}
 }

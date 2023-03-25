@@ -60,4 +60,14 @@ public class Tag extends UserDateAudit {
 		}
 	}
 
+	public String getName() {
+		// TODO Auto-generated method stub
+		return this.name;
+	}
+
+	public void setName(String name2) {
+		// TODO Auto-generated method stub
+		this.name = name2;
+	}
+
 }

@@ -32,4 +32,59 @@ public class InfoRequest {
 	private String lat;
 
 	private String lng;
+
+	public String getLat() {
+		// TODO Auto-generated method stub
+		return this.lat;
+	}
+
+	public String getLng() {
+		// TODO Auto-generated method stub
+		return this.lng;
+	}
+
+	public String getStreet() {
+		// TODO Auto-generated method stub
+		return this.street;
+	}
+
+	public String getSuite() {
+		// TODO Auto-generated method stub
+		return this.suite;
+	}
+
+	public String getCity() {
+		// TODO Auto-generated method stub
+		return this.city;
+	}
+
+	public String getZipcode() {
+		// TODO Auto-generated method stub
+		return this.zipcode;
+	}
+
+	public String getCompanyName() {
+		// TODO Auto-generated method stub
+		return this.companyName;
+	}
+
+	public String getCatchPhrase() {
+		// TODO Auto-generated method stub
+		return this.catchPhrase;
+	}
+
+	public String getWebsite() {
+		// TODO Auto-generated method stub
+		return this.website;
+	}
+
+	public String getPhone() {
+		// TODO Auto-generated method stub
+		return this.phone;
+	}
+
+	public String getBs() {
+		// TODO Auto-generated method stub
+		return this.bs;
+	}
 }
